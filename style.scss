@@ -3,7 +3,11 @@
     padding: 0px;
 }
 
-//////////////////DANI - RUBEN/////////// BODY /////////////
+body {
+    width: 1300px;
+}
+
+//////////////////DANI
 .film-wrapper {
     margin: 20px 20px;
     border: 1px solid black;
@@ -13,6 +17,11 @@
     height: 250px;
     width: 250px;
     padding-left: 25px;
+    padding-top: 25px;
+}
+
+.film-sinopsis {
+    float: right;
 }
 
 ///////////////////////////////
