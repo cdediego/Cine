@@ -2,4 +2,15 @@
   margin: 0px;
   padding: 0px;
 }
+
+.film-wrapper {
+  margin: 20px 20px;
+  border: 1px solid black;
+}
+
+.film-picture {
+  height: 250px;
+  width: 250px;
+  padding-left: 25px;
+}
 /*# sourceMappingURL=style.css.map */
