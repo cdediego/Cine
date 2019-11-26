@@ -22,4 +22,10 @@ body {
 .film-sinopsis {
   float: right;
 }
+
+@media screen and (width: 400px) {
+  body {
+    width: 400px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
