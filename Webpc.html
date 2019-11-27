@@ -9,20 +9,25 @@
 
 <body>
     <header>
-        <!--Logo header-->
-        <img src="" id="logo">
-        <h1>WEB CINE</h1>
-        <!--Titulo Web-->
-        <div class="Barra header">
+        <div class="background"></div>
+        <div class="logo_title">
+            <!--Logo header-->
+            <img src="images/logo.png" id="logo">
+            <h1>MOVIE TIME!</h1>
+            <!--Titulo Web-->
+        </div>
+        <div class="barra_header">
             <ul class="navegacion">
-                <li>Inicio</li>
-                <li>Estrenos</li>
-                <li>Comprar Entradas</li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Estrenos</a></li>
+                <li><a href="#">Comprar Entradas</a></li>
             </ul>
-            <input type="text" name="buscador">
-            <div class="login">
-                <input type="text" placeholder="user">
-                <input type="text" placeholder="password">
+            <div class="inputs">
+                <input id="buscador" type="text" name="buscador" placeholder="Buscar">
+                <div class="login">
+                    <input type="text" placeholder="Usuario">
+                    <input type="text" placeholder="Contraseña">
+                </div>
             </div>
         </div>
     </header>
@@ -45,8 +50,7 @@
                     <li>Actor2</li>
                 </ul>
             </div>
-            <!--No se si la etiqueta video existe.-->
-            <iframe class="film-trailer " width="560 " height="315 " src="https://www.youtube-nocookie.com/embed/9IxkAsF_UwQ " frameborder="0 " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+            <iframe class="film-trailer" width="560" height="315" src="https://www.youtube-nocookie.com/embed/9IxkAsF_UwQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </main>
     <footer>
