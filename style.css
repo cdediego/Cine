@@ -184,8 +184,13 @@ body {
   padding-left: 5%;
 }
 
-.film-wrapper .film-container .film-image-and-info .film-info li:not(:first-child) {
+.film-wrapper .film-container .film-image-and-info .film-info li {
   padding-top: 5%;
+}
+
+.film-wrapper .film-container .film-image-and-info .film-info li span {
+  font-weight: bolder;
+  margin-right: 2px;
 }
 
 .film-wrapper .film-container .film-sinopsis-wrapper {
