@@ -141,3 +141,34 @@ a {
 }
 
 //* END MABEL
+
+body {
+    width: 1300px;
+}
+
+//////////////////DANI
+.film-wrapper {
+    margin: 20px 20px;
+    border: 1px solid black;
+}
+
+.film-picture {
+    height: 250px;
+    width: 250px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.film-sinopsis {
+    float: right;
+}
+
+///////////////////////////////
+
+////////////////RUBÉN
+@media screen and (width: 400px) {
+    body {
+        width: 400px;
+    }
+  }  
+///////////////////

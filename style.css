@@ -146,4 +146,30 @@ a {
     margin-right: 49px;
   }
 }
+
+body {
+  width: 1300px;
+}
+
+.film-wrapper {
+  margin: 20px 20px;
+  border: 1px solid black;
+}
+
+.film-picture {
+  height: 250px;
+  width: 250px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.film-sinopsis {
+  float: right;
+}
+
+@media screen and (width: 400px) {
+  body {
+    width: 400px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
