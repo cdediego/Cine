@@ -164,6 +164,8 @@ body {
 .film-wrapper .film-container h3 {
   font-size: 19px;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 
 .film-wrapper .film-container .film-image-and-info {
@@ -179,16 +181,18 @@ body {
   width: 250px;
 }
 
-.film-wrapper .film-container .film-image-and-info .film-info {
+.film-wrapper .film-container .film-image-and-info .film-info li {
+  padding-top: 4%;
+  padding-left: 5%;
   font-size: 19px;
   padding-left: 5%;
 }
 
-.film-wrapper .film-container .film-image-and-info .film-info li {
-  padding-top: 5%;
-}
-
 .film-wrapper .film-container .film-image-and-info .film-info li span {
+  font-size: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
   font-weight: bolder;
   margin-right: 2px;
 }
@@ -200,6 +204,13 @@ body {
 .film-wrapper .film-container .film-actors li {
   margin: 0px;
   display: inline-block;
+}
+
+.film-wrapper .film-container .film-actors li span {
+  font-size: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 
 .film-wrapper .film-container .film-trailer {
