@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: $roboto;
+    list-style: none;
 }
 
 //* MABEL
@@ -14,7 +15,7 @@ header {
     padding-bottom: 6px;
     color: white;
     .background {
-        background-image: url("/images/cortina.jpg");
+        background-image: url("images/cortina.jpg");
         height: 199px;
         position: absolute;
         width: 100%;
@@ -135,9 +136,9 @@ body {
     border: 1px solid black;
     .film-container {
         height: 500px;
-        aside {
+        .film-image-and-info {
             float: left;
-            width: 45%;
+            width: 25%;
             height: 100%;
             .film-picture {
                 padding-top: 2%;
