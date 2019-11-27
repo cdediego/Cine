@@ -5,3 +5,18 @@
 @mixin margin-bottom($num) {
     margin-bottom: $num;
 }
+
+@mixin paddingCorner() {
+    padding-top: 4%;
+    padding-left: 5%;
+}
+
+@mixin highlightedText($title: false) {
+    font-size: 19px;
+    @if ($title) {
+        text-align: center;
+    }
+    @else {
+        padding-left: 5%;
+    }
+}

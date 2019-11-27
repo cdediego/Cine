@@ -135,20 +135,37 @@ body {
     margin: 20px 20px;
     border: 1px solid black;
     .film-container {
+        h3 {
+            @include highlightedText($title: true);
+        }
         height: 500px;
         .film-image-and-info {
             float: left;
             width: 25%;
             height: 100%;
             .film-picture {
-                padding-top: 2%;
-                padding-left: 2%;
+                @include paddingCorner();
                 height: 250px;
                 width: 250px;
             }
             .film-info {
-                padding-top: 25%;
+                @include highlightedText();
+                li:not(:first-child) {
+                    padding-top: 5%;
+                }
             }
+        }
+        .film-sinopsis-wrapper {
+            padding-top: 5px;
+        }
+        .film-actors {
+            li {
+                margin: 0px;
+                display: inline-block;
+            }
+        }
+        .film-trailer {
+            align-content: center;
         }
     }
 }
