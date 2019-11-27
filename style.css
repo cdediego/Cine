@@ -12,6 +12,16 @@ body {
   border: 1px solid black;
 }
 
+.film-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 .film-picture {
   height: 250px;
   width: 250px;
@@ -20,12 +30,6 @@ body {
 }
 
 .film-sinopsis {
-  float: right;
-}
-
-@media screen and (width: 400px) {
-  body {
-    width: 400px;
-  }
+  width: 25%;
 }
 /*# sourceMappingURL=style.css.map */

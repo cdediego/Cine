@@ -13,6 +13,11 @@ body {
     border: 1px solid black;
 }
 
+.film-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .film-picture {
     height: 250px;
     width: 250px;
@@ -21,15 +26,7 @@ body {
 }
 
 .film-sinopsis {
-    float: right;
+    width: 25%;
 }
 
 ///////////////////////////////
-
-////////////////RUBÉN
-@media screen and (width: 400px) {
-    body {
-        width: 400px;
-    }
-  }  
-///////////////////
