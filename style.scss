@@ -128,18 +128,21 @@ a {
 //* END MABEL
 body {
     width: 1300px;
+    background-color: black;
+    color: white;
 }
 
 //////////////////DANI
 .film-wrapper {
     margin: 20px 20px;
     .film-container {
-        border: 1px solid black;
+        border: 1px solid rgb(29, 27, 27);
         border-radius: 25px;
         @include margin-bottom(2%);
         h3 {
             @include highlightedText($title: true);
             @include margin-bottom(0.5%);
+            padding-top: 20px;
         }
         .film-image-and-info {
             float: left;
@@ -147,6 +150,7 @@ body {
             height: 100%;
             .film-picture {
                 @include paddingCorner();
+                border-radius: 25px;
                 height: 250px;
                 width: 250px;
             }
@@ -188,40 +192,38 @@ body {
 }
 
 ///////////////////////////////
-
 //carlos
-
 footer {
-  margin: 20px 20px;
-  .background2 {
-    width: 100%;
-    height: 400px;
-    background-image: url("images/footer-background.jpg");
-    position: absolute;
-    background-size: 100% 100%;
-    height: 100px;
-}
-  .footer-menu {
-  color: white;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-          padding-left: 20px;
-          padding-top: 20px;
-}
-  li{
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  -webkit-box-align: center ;
-    -ms-flex-align: center;
-      align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: flex-end;
-      padding-left: 10px;
+    margin: 20px 20px;
+    .background2 {
+        width: 100%;
+        height: 400px;
+        background-image: url("images/footer-background.jpg");
+        position: absolute;
+        background-size: 100% 100%;
+        height: 100px;
+    }
+    .footer-menu {
+        color: white;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    li {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: end;
+        -ms-flex-pack: flex-end;
+        padding-left: 10px;
     }
 }
