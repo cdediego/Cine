@@ -1,10 +1,18 @@
 @import "fontFamily";
 @import "mixins";
 * {
+<<<<<<< HEAD
   margin: 0px;
   padding: 0px;
   font-family: $roboto;
   list-style: none;
+=======
+    margin: 0px;
+    padding: 0px;
+    font-family: $roboto;
+    list-style: none;
+    overflow-x: hidden;
+>>>>>>> 9d52d0b1e38657dddef92a82c0d9900ef769ebc2
 }
 
 //* MABEL
@@ -127,9 +135,14 @@ a {
 
 //* END MABEL
 body {
+<<<<<<< HEAD
   width: 1300px;
   background-color: black;
   color: white;
+=======
+    background-color: black;
+    color: white;
+>>>>>>> 9d52d0b1e38657dddef92a82c0d9900ef769ebc2
 }
 
 //////////////////DANI
@@ -287,5 +300,5 @@ body {
         padding-left: 10px;
       }
     }
-  }
+}
 }
