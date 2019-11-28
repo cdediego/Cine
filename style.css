@@ -4,10 +4,7 @@
   padding: 0px;
   font-family: "Roboto", sans-serif;
   list-style: none;
-<<<<<<< HEAD
-=======
   overflow-x: hidden;
->>>>>>> 9d52d0b1e38657dddef92a82c0d9900ef769ebc2
 }
 
 header {
@@ -97,6 +94,7 @@ header .barra_header .inputs .login input {
 
 li {
   margin-right: 15px;
+  padding-right: 17px;
 }
 
 a {
@@ -153,7 +151,6 @@ a {
 }
 
 body {
-  width: 1300px;
   background-color: black;
   color: white;
 }
