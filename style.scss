@@ -133,12 +133,14 @@ body {
 //////////////////DANI
 .film-wrapper {
     margin: 20px 20px;
-    border: 1px solid black;
     .film-container {
+        border: 1px solid black;
+        border-radius: 25px;
+        @include margin-bottom(2%);
         h3 {
             @include highlightedText($title: true);
+            @include margin-bottom(0.5%);
         }
-        height: 500px;
         .film-image-and-info {
             float: left;
             width: 25%;
@@ -160,10 +162,16 @@ body {
                 }
             }
         }
-        .film-sinopsis-wrapper {
+        .film-sinopsis {
+            text-align: center;
+            padding: 0 20px;
             padding-top: 5px;
+            @include margin-bottom(1%);
         }
         .film-actors {
+            ul {
+                @include margin-bottom(0.5%);
+            }
             li {
                 margin: 0px;
                 display: inline-block;
@@ -172,20 +180,11 @@ body {
                 }
             }
         }
-        .film-trailer {
-            align-content: center;
+        iframe {
+            padding-left: 15%;
+            @include iframeWidth();
         }
     }
 }
 
-// .film-picture {
-//     height: 250px;
-//     width: 250px;
-//     padding-left: 25px;
-//     padding-top: 25px;
-// }
-// .film-sinopsis {
-//     width: 25%;
-//     text-align: center;
-// }
 ///////////////////////////////

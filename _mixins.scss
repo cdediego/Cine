@@ -22,3 +22,8 @@
         padding-left: 5%;
     }
 }
+
+@mixin iframeWidth() {
+    width: 460px;
+    height: 310px;
+}
