@@ -255,17 +255,16 @@ footer .footer-menu {
           padding-left: 20px;
           padding-top: 20px;
 }
-footer .footer-logos li{
+footer li {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-  -webkit-box-align: center ;
-    -ms-flex-align: center;
-      align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: flex-end;
-      padding-left: 10px;
-}
+  -ms-flex-pack: flex-end;
+  padding-left: 10px; }
 
 
 
