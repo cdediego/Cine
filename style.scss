@@ -187,4 +187,65 @@ body {
     }
 }
 
-///////////////////////////////
+///////////////////////////////RUBEN
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 500px;
+    }
+    .film-wrapper {
+        margin: 10px 10px;
+        .film-container {
+            border: 1px solid black;
+            border-radius: 25px;
+            @include margin-bottom(1%);
+            h3 {
+                @include highlightedText($title: true);
+                @include margin-bottom(0.5%);
+            }
+            .film-image-and-info {
+                float: left;
+                width: 100%;
+                height: 100%;
+                .film-picture {
+                    @include paddingCorner();
+                    height: 100px;
+                    width: 100px;
+                }
+                .film-info {
+                    li {
+                        @include paddingCorner();
+                        @include highlightedText($title: false);
+                        span {
+                            @include highlightedText($title: true);
+                            font-weight: bolder;
+                            margin-right: 2px;
+                        }
+                    }
+                }
+            }
+            .film-sinopsis {
+                text-align: center;
+                padding: 0 10px;
+                padding-top: 5px;
+                @include margin-bottom(1%);
+            }
+            .film-actors {
+                ul {
+                    @include margin-bottom(0.5%);
+                }
+                li {
+                    margin: 0px;
+                    display: block;
+                    span {
+                        @include highlightedText(true);
+                    }
+                }
+            }
+            iframe {
+                padding-left: 10%;
+                @include iframeWidth();
+            }
+        }
+    }
+}
