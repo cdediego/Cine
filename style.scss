@@ -212,6 +212,16 @@ $breakpoints: (
 @media screen and (max-width: map-get($breakpoints, "movil")) {
   body {
     width: map-get($breakpoints, "movil");
+    #logo {
+      display: none;
+    }
+    .film-image-and-info {
+      width: 100% !important;
+      display: inline-block;
+    }
+    .film-sinopsis-wrapper {
+      display: inline-block;
+    }
   }
 }
 ///////////////////////////////
