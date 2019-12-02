@@ -215,12 +215,25 @@ $breakpoints: (
     #logo {
       display: none;
     }
+    .film-wrapper {
+      display: inline-block;
+      margin: 0 auto;
+    }
     .film-image-and-info {
       width: 100% !important;
       display: inline-block;
+      text-align: center;
     }
     .film-sinopsis-wrapper {
       display: inline-block;
+    }
+    .film-actors {
+      margin: 0 auto;
+      text-align: center;
+    }
+    .film-actors iframe {
+      margin: 0 auto;
+      padding: 5%;
     }
   }
 }
