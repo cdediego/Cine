@@ -337,4 +337,6 @@ footer li {
   -ms-flex-pack: flex-end;
   padding-left: 10px;
 }
+footer img {
+  height: 50px; }
 /*# sourceMappingURL=style.css.map */
