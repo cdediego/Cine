@@ -231,15 +231,34 @@ body {
   font-weight: bolder;
 }
 
-.film-wrapper .film-container iframe {
-  padding-left: 15%;
-  width: 460px;
-  height: 310px;
+@media screen and (min-width: 501px) {
+  .film-wrapper .film-container iframe {
+    padding-left: 15%;
+    width: 460px;
+    height: 310px;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 501px) and (max-width: 500px) {
   .film-wrapper .film-container iframe {
     width: 85%;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  .film-wrapper .film-container .film-sinopsis {
+    overflow: visible;
+  }
+}
+
+@media screen and (max-width: 808px) and (min-width: 500px) {
+  .film-sinopsis {
+    display: block;
+  }
+  .film-image-and-info {
+    width: 100% !important;
+    display: block;
+    text-align: center;
   }
 }
 
@@ -266,9 +285,18 @@ body {
     margin: 0 auto;
     text-align: center;
   }
-  body .film-actors iframe {
+  body iframe {
+    width: 460px;
+    height: 310px;
+    display: block;
     margin: 0 auto;
-    padding: 5%;
+    padding-right: 8%;
+  }
+}
+
+@media screen and (max-width: 500px) and (max-width: 500px) {
+  body iframe {
+    width: 85%;
   }
 }
 
