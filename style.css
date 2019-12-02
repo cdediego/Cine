@@ -1,4 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|Roboto&display=swap");
+@font-face {
+  font-family: 'Fredericka the Great';
+  src: url('./images/fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf')  /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./images/fonts/Roboto/Roboto-Regular.ttf')  /* Safari, Android, iOS */
+}
+
+
 * {
   margin: 0px;
   padding: 0px;
