@@ -1,9 +1,16 @@
-@import "fontFamily";
+@font-face {
+  font-family: 'Fredericka the Great';
+  src: url('./images/fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf')  /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./images/fonts/Roboto/Roboto-Regular.ttf')  /* Safari, Android, iOS */
+}
 @import "mixins";
 * {
     margin: 0px;
     padding: 0px;
-    font-family: $roboto;
+    font-family: "Roboto";
     list-style: none;
     overflow-x: hidden;
 }
@@ -36,7 +43,7 @@ header {
         text-align: center;
         @include margin-bottom(5px);
         margin: auto;
-        font-family: $fredericka;
+        font-family: "Fredericka the Great", cursive;
     }
     .barra_header {
         display: flex;
