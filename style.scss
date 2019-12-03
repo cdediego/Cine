@@ -214,13 +214,23 @@ body {
 }
 
 @media screen and (max-width: 808px) and (min-width:500px) {
-    .film-sinopsis {
-        display: block;
-    }
     .film-image-and-info {
         width: 100% !important;
         display: block;
         text-align: center;
+    }
+    .film-sinopsis-wrapper {
+        display: inline-block;
+    }
+    .film-actors {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .background2 {
+        height: 130px !important;
+    }
+    .footer-images {
+        padding-top: 20px;
     }
 }
 
@@ -254,6 +264,12 @@ $breakpoints: ( "movil": 500px);
             display: block;
             margin: 0 auto;
             padding-right: 8%;
+        }
+        .background2 {
+            height: 150px !important;
+        }
+        .footer-images {
+            padding-top: 20px;
         }
     }
 }
